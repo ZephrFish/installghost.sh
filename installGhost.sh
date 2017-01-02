@@ -28,7 +28,7 @@ fi
 ######Download and install Node######
 apt-get -y update
 apt-get -y upgrade
-curl -sL https://deb.nodesource.com/setup | sudo bash -
+curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -
 apt-get install -y nodejs zip nginx
 
 ######Download and install Ghost######
